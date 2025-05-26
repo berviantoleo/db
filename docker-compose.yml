@@ -21,7 +21,7 @@ services:
       ME_CONFIG_MONGODB_ADMINPASSWORD: mongo-dev-admin
       ME_CONFIG_MONGODB_URL: mongodb://root:mongo-dev@mongo:27017/
   postgres:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     environment:
       POSTGRES_PASSWORD: devpass4444
     ports:
