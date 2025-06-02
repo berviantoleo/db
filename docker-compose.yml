@@ -50,7 +50,7 @@ services:
     volumes:
       - rabbitmq:/var/lib/rabbitmq
   azurite:
-    image: mcr.microsoft.com/azure-storage/azurite:3.31.0
+    image: mcr.microsoft.com/azure-storage/azurite:3.34.0
     ports:
       - 10000:10000
       - 10001:10001
